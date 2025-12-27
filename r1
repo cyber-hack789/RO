@@ -1,0 +1,25 @@
+1.Write a R program for different types of data structures in R.
+
+# Vector
+v <- c(1,2,3,4,5)
+print(v)
+
+# List
+l <- list("Fahad", 20, TRUE)
+print(l)
+
+# Matrix
+m <- matrix(1:6, nrow=2)
+print(m)
+
+# Array
+a <- array(1:8, dim=c(2,2,2))
+print(a)
+
+# Data Frame
+d <- data.frame(Name=c("Fahad","Sadan"), Age=c(20,21))
+print(d)
+
+# Factor
+f <- factor(c("Male","Female","Other"))
+print(f)
