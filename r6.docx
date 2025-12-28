@@ -1,0 +1,8 @@
+marknova
+p<- matrix(c(0.7,0.3,0.4,0.6), nrow=2 , byrow=TRUE)
+pi<-c(0.5,0.5)
+
+for(i in 1:20)
+    pi <- pi %*% p
+print("stationary distribution:\n")
+print(pi)

@@ -1,0 +1,15 @@
+3.Write an R program that includes different operators, control structures, default values for arguments, and returning complex objects.
+
+cal <- function(a=10,b=20){
+    if (a > b) msg <- "a is greater" else msg<-"b is grater"
+    
+    return(list(
+     add=a+b,
+     sub=a-b,
+     mul=a*b,
+     div=a/b,
+     msg=msg
+    ))
+}
+r<- cal()
+print(r)

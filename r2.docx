@@ -1,0 +1,17 @@
+2.Write an R program that includes variables, constants, and different data types. 
+
+#variable
+name <- "jafu"
+age <- 24
+hight <- 5.2
+student <- TRUE
+
+#constant
+PI <- 3.14
+
+#value of variable and data type
+print(name); print(class(name))
+print(age);  print(class(age))
+print(hight);print(class(hight))
+print(student); print(class(student))
+print(PI);      print(class(PI))

@@ -1,0 +1,15 @@
+
+
+quicksort<-function(x){
+    if(length(x)<=1){
+    return (x)
+}
+p=x[1]
+left=x[x<p]
+right=x[x>p]
+
+c(quicksort(left),p,quicksort(right))
+}
+num <- scan(what = integer(), 
+            prompt = "Enter numbers: ")
+print(quicksort(num))
